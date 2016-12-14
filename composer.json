@@ -1,0 +1,31 @@
+{
+  "name": "ideationnet/action-resolver",
+  "type": "library",
+  "description": "Simple fast-route based action resolver for PSR-15 compatible middleware",
+  "keywords": ["ideationnet", "action-resolver"],
+  "homepage": "https://github.com/ideationnet/action-resolver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Darren Mothersele",
+      "email": "darren@darrenmothersele.com",
+      "homepage": "http://www.darrenmothersele.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~7.0",
+    "http-interop/http-middleware": "^0.3.0",
+    "nikic/fast-route": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IdNet\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
